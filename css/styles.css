@@ -1,0 +1,125 @@
+html, body {
+    margin: 0;
+    padding:0;
+	font-family: arial;
+	font-size: 14pt;
+	color: #252226;
+}
+
+.banner {
+    width:100%;
+}
+
+#centre
+    {text-align:center;}
+
+#centrelink {
+	margin-left:50%;
+}
+
+#product
+    {width: 300px;}
+
+h1 {
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+}
+
+.big-text {
+	font-size: 60pt;
+	color: #E7C9A7;
+}
+
+h2, h3, h4, h5 {
+	font-family: 'Oswald', sans-serif;
+}
+
+a {
+	color: forestgreen;
+}
+a:hover {
+	color: #E7C9A7;
+}
+
+.emptyspace {
+                height:300px;
+            }
+
+.tint {
+    background-color:rgba(0,0,0,0.65);
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+
+}
+
+.large-img {
+    background-image: url("../images/banner.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width:100%;
+    height:350px;
+    position:relative;
+}
+
+.large-img-caption {
+    position:absolute;
+    width:100%;
+    height:60px;
+    line-height:60px;    
+    text-align:center;
+    top:50%;
+    margin-top:-50px;
+    font-size:50px;
+    color:white;
+    
+}
+
+#headshot
+    {width:300px;}
+
+.msg {
+	width:100%;
+	font-size:30px;
+	text-align:center;
+	margin-top:100px;
+	margin-left:2000px;
+	transition: all 1.5s;
+} 
+
+.btn {
+	background-color: forestgreen;
+}
+
+/* FORM */
+.hidden {
+	/*visibility: hidden;*/
+	display: none;
+}
+.visible {
+	/*visibility: visible;*/
+	display: block;
+	margin-bottom: 15px;
+}
+
+input, select {
+    border: solid 2px black;
+}
+
+input[type=text], select {
+    width: 400px;
+    height: 40px;
+    padding:3px;
+}
+
+#message {
+	width: 100%;
+}
+
+input[type=radio], input[type=checkbox] {
+    width:20px;
+    height:20px;
+}
+
